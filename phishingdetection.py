@@ -1,3 +1,6 @@
+import pandas as pd
+df = pd.read_csv("emails.csv")
+!pip install streamlit
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -382,3 +385,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+%pip install streamlit pandas scikit-learn numpy
+!pip install pyngrok streamlit
+!ngrok authtoken $2uUCXVtpmuTosp4zygymZKz1DOS_5RpePBgeZCEEMGzrS76SC
+!curl https://loca.lt/mytunnelpassword
+# Install localtunnel globally
+!npm install -g localtunnel
+!streamlit run app.py & lt --port 8501
+
