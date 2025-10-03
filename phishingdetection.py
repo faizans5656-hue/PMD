@@ -382,5 +382,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-!streamlit run phishingdetection.py
 !pip install --upgrade scikit-learn
